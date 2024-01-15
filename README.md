@@ -23,6 +23,7 @@ Staging:
 - Does not add the files that are updated but not explicated staged again
 - A file needs to be staged again and again if modified
 - Files can be sent from the staged state to the commit stage by using `git commit -m <Message>`
+- Files can be removed from the staging state using `git rm --cached <file_name>`
 
 Commit:
 - Contains files that are committed
